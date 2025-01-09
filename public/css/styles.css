@@ -1,0 +1,89 @@
+/* Stylesheet for Login and Registration Forms */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1e1e2f; /* Dark background */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.form-container {
+  background-color: #252540; /* Dark box for form */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 100%; /* Make it flexible */
+  max-width: 300px; /* Maximum width */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2e2e3e;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #b3b3b3;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4b6cc1;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a7bd4;
+}
+
+a {
+  color: #8797b2;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    justify-content: flex-start;
+    padding-top: 20px; /* Add some padding on mobile to avoid the top edge */
+  }
+
+  .form-container {
+    padding: 20px; /* Reduce padding on smaller screens */
+    width: 90%; /* Use more of the screen's width on small devices */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Slightly smaller font size on small devices */
+  }
+}
