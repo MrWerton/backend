@@ -16,11 +16,6 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true })); // Use urlencoded to parse form data
 app.use(express.static(path.join(__dirname, "public")));
 
-// Home Page with Forms for Registration and Login
-app.get("/", (req, res) => {
-  res.render("home");
-});
-
 // Endpoint for registering a user
 app.post("/register", async (req, res) => {
   const { email, password } = req.body;
@@ -40,7 +35,7 @@ app.get("/register", (req, res) => {
   res.render("register");
 });
 
-app.get("/login", (req, res) => {
+app.get("/", (req, res) => {
   res.render("login");
 });
 // Endpoint for login

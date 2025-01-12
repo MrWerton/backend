@@ -13,3 +13,8 @@
 2025-01-09 12:30:17.225327626  Connection closed by ::1 port 53880
 2025-01-09 12:30:28.187259590  Invalid user user from 172.18.0.1 port 59532
 2025-01-09 12:30:28.199992882  Connection closed by invalid user user 172.18.0.1 port 59532 [preauth]
+2025-01-09 13:41:07.343119342  Invalid user user from 172.18.0.1 port 59236
+2025-01-09 13:41:07.378672259  Connection closed by invalid user user 172.18.0.1 port 59236 [preauth]
+2025-01-09 13:41:15.804952804  Invalid user user from 172.18.0.1 port 57482
+2025-01-09 13:41:15.819509388  Connection closed by invalid user user 172.18.0.1 port 57482 [preauth]
+2025-01-09 13:42:04.733251424  Received signal 15; terminating.
